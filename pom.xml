@@ -30,12 +30,11 @@
     <module>dso-l2-common</module>
     <module>dso-l1</module>
     <module>dso-l2</module>
-    <module>deploy</module>
+    <module>deploy</module> 
     <module>dso-cluster-api</module>
 
     <module>legacy-test-tree</module>
     <module>dso-system-tests</module>
-
     <module>terracotta-parent</module>
     <module>terracotta</module>
     <module>terracotta-l1-parent</module>
@@ -46,7 +45,6 @@
     <module>toolkit-impl</module>
     <module>toolkit-express-impl</module>
     <module>toolkit-runtime</module>
-
     <module>management</module>
     <module>management-agent</module>
   </modules>

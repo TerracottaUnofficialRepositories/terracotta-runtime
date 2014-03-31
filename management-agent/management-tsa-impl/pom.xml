@@ -37,38 +37,42 @@
       <artifactId>security-REST</artifactId>
       <exclusions>
         <exclusion>
-          <groupId>com.sun.jersey</groupId>
-          <artifactId>jersey-core</artifactId>
+          <groupId>gf-3122</groupId>
+          <artifactId>gf.jersey-core</artifactId>
         </exclusion>
         <exclusion>
-          <groupId>com.sun.jersey</groupId>
-          <artifactId>jersey-json</artifactId>
+          <groupId>gf-3122</groupId>
+          <artifactId>gf.jersey-json</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>gf-3122</groupId>
+          <artifactId>gf.jersey-client</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>gf-3122</groupId>
-      <artifactId>gf.jersey-core</artifactId>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-core</artifactId>
       <version>1.16</version>
     </dependency>
     <dependency>
-      <groupId>gf-3122</groupId>
-      <artifactId>gf.jersey-json</artifactId>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-json</artifactId>
       <version>1.16</version>
     </dependency>
     <dependency>
-      <groupId>gf-3122</groupId>
-      <artifactId>gf.jackson-core-asl</artifactId>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-core-asl</artifactId>
       <version>1.9.2</version>
     </dependency>
     <dependency>
-      <groupId>gf-3122</groupId>
-      <artifactId>gf.jackson-mapper-asl</artifactId>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
       <version>1.9.2</version>
     </dependency>
     <dependency>
-      <groupId>gf-3122</groupId>
-      <artifactId>gf.jackson-jaxrs</artifactId>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-jaxrs</artifactId>
       <version>1.9.2</version>
     </dependency>
     <dependency>
@@ -81,8 +85,8 @@
       <artifactId>slf4j-log4j12</artifactId>
     </dependency>
     <dependency>
-      <groupId>gf-3122</groupId>
-      <artifactId>gf.javax.servlet-api</artifactId>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
       <version>3.0.1</version>
       <scope>provided</scope>
     </dependency>
@@ -141,4 +145,15 @@
     </plugins>
   </build>
 
+<!--
+  <repositories>
+    <repository>
+      <id>terracotta-repository</id>
+      <url>http://www.terracotta.org/download/reflector/releases</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </repository>
+  </repositories>
+  -->
 </project>
