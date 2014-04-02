@@ -262,20 +262,20 @@
       </activation>
       <dependencies>
         <dependency>
-          <groupId>gf-3122</groupId>
-          <artifactId>gf.javax.security.auth.message</artifactId>
+          <groupId>org.glassfish</groupId>
+          <artifactId>javax.security.auth.message</artifactId>
         </dependency>
         <dependency>
-          <groupId>gf-3122</groupId>
-          <artifactId>gf.javax.annotation</artifactId>
+          <groupId>org.glassfish</groupId>
+          <artifactId>javax.annotation</artifactId>
         </dependency>
         <dependency>
-          <groupId>gf-3122</groupId>
-          <artifactId>gf.javax.mail</artifactId>
+          <groupId>org.glassfish</groupId>
+          <artifactId>javax.mail</artifactId>
         </dependency>
         <dependency>
-          <groupId>gf-3122</groupId>
-          <artifactId>gf.javax.servlet-api</artifactId>
+          <groupId>org.glassfish</groupId>
+          <artifactId>javax.servlet-api</artifactId>
         </dependency>
       </dependencies>
     </profile>

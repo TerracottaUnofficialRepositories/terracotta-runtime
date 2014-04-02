@@ -131,8 +131,8 @@ Apache Ivy version: 2.2.0 20100923230623
       </activation>
       <dependencies>
         <dependency>
-          <groupId>gf-3122</groupId>
-          <artifactId>gf.javax.servlet-api</artifactId>
+          <groupId>org.glassfish</groupId>
+          <artifactId>javax.servlet-api</artifactId>
         </dependency>
       </dependencies>
     </profile>
